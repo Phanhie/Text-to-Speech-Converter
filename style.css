@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pxs;
+}
+
+.Homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(0, 58, 133), rgb(250, 220, 164)) ;
+    width: 100%;
+    height:100vh;
+}
+
+.Homepage h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.Homepage h1 span {
+    color: rgb(250, 142, 54);
+}
+
+textarea {
+    padding:20px;
+    resize: 0;
+    margin-bottom: 20px;
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.267);
+    font-size: 15px;
+}
+.Homepage textarea::placeholder {
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+
+.button {
+    width:43%;
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.button button{
+    display:flex;
+    align-items: center;
+    padding:15px 30px;
+    outline: none;
+    border:none;
+    border-radius: 20px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(250, 142, 54);
+    cursor: pointer;
+}
+.button select {
+    flex: 1;
+    height: 50px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.267);
+    appearance: none;
+    background-image: url(Images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+}
